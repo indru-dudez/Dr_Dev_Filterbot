@@ -2,7 +2,7 @@
   <img src="https://github.com/DrDevAnand/Dr_Dev_Filterbot/blob/master/assets/lazyprincessbot.jpg" alt="Dr Dev Logo">
 </p>
 <h1 align="center">
-  <b> Lazy Princess BOT </b>
+  <b> Dr Dev BOT </b>
 </h1>
 
 ## ⚡️Features
