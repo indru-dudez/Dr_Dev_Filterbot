@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/LazyDeveloperr/LazyPrincess/blob/master/assets/lazyprincessbot.jpg" alt="Lazy Princess Logo">
+  <img src="https://github.com/DrDevAnand/Dr_Dev_Filterbot/blob/master/assets/lazyprincessbot.jpg" alt="Dr Dev Logo">
 </p>
 <h1 align="center">
   <b> Lazy Princess BOT </b>
