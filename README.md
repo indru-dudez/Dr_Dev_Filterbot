@@ -102,11 +102,11 @@ python3 bot.py
 • /link - to create link for one post
 ```
 ## Support
-[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyPrincessSupport)
-[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/LazyDeveloper)
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/Dr_DevAnand)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/Dr_DevAnand)
 
 ## Credits 
-* [![LazyPrincess-Devs](https://img.shields.io/static/v1?label=LazyPrincess&message=devs&color=critical)](https://telegram.dog/LazyDeveloper)
+* [![Dr Dev-Devs](https://img.shields.io/static/v1?label=DrDevAnand&message=devs&color=critical)](https://telegram.dog/Dr_DevAnand)
 
 
 ## Thanks to 
@@ -117,9 +117,9 @@ python3 bot.py
 
 ### Note
 
-[Join Main Channel](https://telegram.dog/LazyDeveloper): LazyDeveloper
+[Join Main Channel](https://telegram.dog/Dr_DevAnand): Dr Dev
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/LICENSE)
+Licensed under [GNU AGPL 2.0.](https://github.com/DrDevAnand/Dr_Dev_Filterbot/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
