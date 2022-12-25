@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/DrDevAnand/Dr_Dev_Filterbot/blob/master/assets/lazyprincessbot.jpg" alt="Dr Dev Logo">
+   alt="Dr Dev Logo">
 </p>
 <h1 align="center">
   <b> Dr Dev BOT </b>
@@ -38,7 +38,7 @@ Read [this](https://telegram.dog/LazyDevelopers/8) before you start messing up w
 ### Optional Variables
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
 * `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made.Separate multiple IDs by space
-* Check [info.py](https://github.com/LazyDeveloperr/LazyPrincess/blob/master/info.py) for more
+* Check [info.py](https://github.com/DrDevAnand/Dr_Dev_Filterbot/blob/master/info.py) for more
 
 
 ## Deploy
@@ -51,7 +51,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/LazyDeveloperr/LazyPrincess">
+<a href="https://heroku.com/deploy?template=https://github.com/DrDevAnand/Dr_Dev_Filterbot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -60,7 +60,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/LazyDeveloperr/LazyPrincess
+git clone https://github.com/DrDevAnand/Dr_Dev_Filterbot
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
