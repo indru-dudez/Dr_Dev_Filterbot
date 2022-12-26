@@ -18,7 +18,7 @@ Here is the help for my COMMANDS."""
 - <a href=https://t.me/Dr_DevAnand>DrDevanand</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and LazyPriness will respond whenever that keyword hits the message
+- Filter is the feature were users can set automated replies for a particular keyword and Dr Dev will respond whenever that keyword hits the message
 
 <b>NOTE:</b>
 1. BOT should have admin privillage.
