@@ -776,7 +776,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
-    await msg.reply("ಗೆಳೆಯ! ನನಗೆ ಈ ಹೆಸರಿನ ಚಿತ್ರ ಸಿಗಲಿಲ್ಲ, ನನಗೆ ಅನಸುತ್ತೆ ಅಕ್ಷರ ತಪ್ಪಾಗಿದೆ 🤷‍♀️!\nPlease check your spelling once again 🤦‍♀️... or \n Discuss your problem with our admin here 👉 @discussion_groupp ",
+    await msg.reply("ಗೆಳೆಯ! ನನಗೆ ಈ ಹೆಸರಿನ ಚಿತ್ರ ಸಿಗಲಿಲ್ಲ, ನನಗೆ ಅನಸುತ್ತೆ ಅಕ್ಷರ ತಪ್ಪಾಗಿದೆ 🤷‍♀️!\nPlease check your spelling once again 🤦‍♀️... or \n Discuss your problem with our admin here 👉 @Dr_DevAnand ",
                     reply_markup=InlineKeyboardMarkup(btn))
 
 
