@@ -114,8 +114,10 @@ python3 bot.py
 
 ### Note
 
+<b>Thanks to ›› [𝐌𝐫|| LazyDeveloper ](https://telegram.dog/LazyDeveloper)
+
 [Join Main Channel](https://telegram.dog/Dr_DevAnand): Dr Dev
-<b>Thanks to ›› [𝐌𝐫|| LazyDeveloper ](https://telegram.dog/LazyDeveloper)q
+
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 Licensed under [GNU AGPL 2.0.](https://github.com/DrDevAnand/Dr_Dev_Filterbot/blob/master/LICENSE)
