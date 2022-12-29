@@ -8,6 +8,6 @@ def hello-world():
 
    return 'DrDevanand'
 
-if name = "main":
+if __name__ = "__main__":
 
     app.run()
