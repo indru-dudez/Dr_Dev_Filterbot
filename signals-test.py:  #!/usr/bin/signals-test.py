@@ -1,21 +1,40 @@
-from time import sleep
+import logging
 import signal
 import sys
 
 
-def sigterm_handler(_signo, _stack_frame):
-    # Raises SystemExit(0):
-    sys.exit(0)
+class TerminateProtected:
+    """ Protect a piece of code from being killed by SIGINT or SIGTERM.
+    It can still be killed by a force kill.
 
-if sys.argv[1] == "handle_signal":
-    signal.signal(signal.SIGTERM, sigterm_handler)
+    Example:
+        with TerminateProtected():
+            run_func_1()
+            run_func_2()
 
-try:
-    print "Hello"
-    i = 0
-    while True:
-        i += 1
-        print "Iteration #%i" % i
-        sleep(1)
-finally:
-    print "Goodbye"
+    Both functions will be executed even if a sigterm or sigkill has been received.
+    """
+    killed = False
+
+    def _handler(self, signum, frame):
+        logging.error("Received SIGINT or SIGTERM! Finishing this block, then exiting.")
+        self.killed = True
+
+    def __enter__(self):
+        self.old_sigint = signal.signal(signal.SIGINT, self._handler)
+        self.old_sigterm = signal.signal(signal.SIGTERM, self._handler)
+
+    def __exit__(self, type, value, traceback):
+        if self.killed:
+            sys.exit(0)
+        signal.signal(signal.SIGINT, self.old_sigint)
+        signal.signal(signal.SIGTERM, self.old_sigterm)
+
+
+if __name__ == '__main__':
+    print("Try pressing ctrl+c while the sleep is running!")
+    from time import sleep
+    with TerminateProtected():
+        sleep(10)
+        print("Finished anyway!")
+    print("This only prints if there was no sigint or sigterm")
