@@ -4,7 +4,7 @@
   <img src="https://telegra.ph/file/8c080e7afc03c49fcb272.jpg" alt="Ajax Techz">
 </p>
 <h1 align="center">
-  <b>Dr Dev Bot</b>
+  <b>𝐃𝐫|| 𝐃𝐞𝐯 𝐏𝐑𝐎 𝐁𝐎𝐓</b>
 </h1>
 <a href="https://youtube.com/channel/UCET942fxBtW0zlNB_DrNAxg">
   <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 HERE -red?logo=youtube" width="150">
