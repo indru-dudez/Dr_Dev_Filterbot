@@ -246,7 +246,7 @@ async def start(client, message):
         caption=f_caption,
         reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('💥SᴜʙSᴄʀɪʙᴇ💥', url='https://youtube.com/@anandmoviesofficial')] ] ),
 
-        protect_content=True if pre == 'filep' else False,
+protect_content=True if pre == 'filep' else False,
         )
                     
 
