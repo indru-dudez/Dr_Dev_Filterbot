@@ -1,6 +1,7 @@
-from pyrogram import Client, filters 
+from pyrogram import Client, filters
+from pyrogram.types import ChatJoinRequest, Message, User
 
-CHAT_ID = [] #"Working Group ID "
+CHAT_ID = None #"Working Group ID "
 TEXT = "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved"
 APPROVED = "on"
 
